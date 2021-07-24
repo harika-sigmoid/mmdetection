@@ -1,6 +1,7 @@
 
 def model_test(image):
     from mmdet.apis import init_detector, inference_detector, show_result_pyplot
+    import mmcv
     # Load model
     config_file = '/content/CascadeTabNet/Config/cascade_mask_rcnn_hrnetv2p_w32_20e.py'
 
