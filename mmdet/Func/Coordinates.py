@@ -25,6 +25,7 @@ def coordinates(path,file,ind):
     from PyPDF2 import PdfFileReader 
     from pdf2image import convert_from_path
     import decimal   
+    from mmdet.Func import model_test
     result = model_test(path)
     im = Image.open(path,mode='r')
     x=im.size
